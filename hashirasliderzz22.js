@@ -3,7 +3,7 @@
   if (!slides.length) return;
 
   let idx = 0;
-  const intervalMs = 3000; // 3 detik
+  const intervalMs = 5000;
 
   function show(i) {
     slides.forEach((el, j) => el.classList.toggle("active", j === i));
